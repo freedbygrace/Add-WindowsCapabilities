@@ -1,0 +1,2 @@
+# Add-WindowsCapabilities
+  This script allows the features on demand to be added to images intended to be used for in-place upgrades and/or bare metal deployment so that the features are enabled before the operating system has even booted for the first time.     This script will also save headaches fighting with Windows Update in domain environments that enforce WSUS which causes errors. In short, these commands were really built for consumer environments so this script is born out of that limitation.
