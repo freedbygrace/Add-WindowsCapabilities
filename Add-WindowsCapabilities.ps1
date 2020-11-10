@@ -18,7 +18,7 @@
     The directory path to the mounted windows image or the drive letter of a windows image that has been expanded onto a disk while in WindowsPE.
 
     .PARAMETER CapabilitiesToAdd
-    A valid regular expression. Allows to enable mutiple capabilities by using a regular expression.
+    A valid regular expression. Allows to enable mutiple capabilities by using a regular expression. Do not worry about using escpe characters within the regular expression as the regular expression will be escaped automatically.
     Example: .*NetFX3.*|^SNMP.*Client.*|.*WMI.*SNMP.*Provider.*Client.*
     Meaning: Anything with "NetFX3" in the capability name; Anything that begins with SNMP and has the word "Client" in the capability name; Anything that has the words WMI, SNMP, Provider, and Client in the capability name.
 
@@ -149,7 +149,7 @@
             [Parameter(Mandatory=$False)]
             [ValidateNotNullOrEmpty()]
             [Alias('FODs')]
-            [Regex]$CapabilitiesToAdd = '.*NetFX3.*|^SNMP.*Client.*|.*WMI.*SNMP.*Provider.*Client.*',
+            [Regex]$CapabilitiesToAdd = 'NetFX3~~~~|SNMP.Client~~~~0.0.1.0|WMI-SNMP-Provider.Client~~~~0.0.1.0',
 
             [Parameter(Mandatory=$False)]
             [ValidateNotNullOrEmpty()]
@@ -177,6 +177,7 @@
   $Bios = Get-WmiObject -Namespace "root\CIMv2" -Class "Win32_Bios" -Property * | Select-Object -Property *
   $ComputerSystem = Get-WmiObject -Namespace "root\CIMv2" -Class "Win32_ComputerSystem" -Property * | Select-Object -Property *
   $OperatingSystem = Get-WmiObject -Namespace "root\CIMv2" -Class "Win32_OperatingSystem" -Property * | Select-Object -Property *
+  $MSSystemInformation = Get-WmiObject -Namespace "root\WMI" -Class "MS_SystemInformation" -Property * | Select-Object -Property *
 
 #Retrieve property values
   $OSArchitecture = $($OperatingSystem.OSArchitecture).Replace("-bit", "").Replace("32", "86").Insert(0,"x").ToUpper()
@@ -194,16 +195,6 @@
   [System.IO.DirectoryInfo]$ToolsDirectoryGeneric = "$($ScriptDirectory.FullName)\Tools\All"
   [System.IO.DirectoryInfo]$ToolsDirectoryArchSpecific = "$($ScriptDirectory.FullName)\Tools\$($OSArchitecture)"
   $IsWindowsPE = Test-Path -Path 'HKLM:\SYSTEM\ControlSet001\Control\MiniNT' -ErrorAction SilentlyContinue
-
-#Log any useful information
-  $LogMessage = "IsWindowsPE = $($IsWindowsPE.ToString())`r`n"
-  Write-Verbose -Message "$($LogMessage)" -Verbose
-
-  $LogMessage = "Script Path = $($ScriptPath.FullName)`r`n"
-  Write-Verbose -Message "$($LogMessage)" -Verbose
-  
-  $LogMessage = "Script Directory = $($ScriptDirectory.FullName)`r`n"
-  Write-Verbose -Message "$($LogMessage)" -Verbose
 	
 #Log task sequence variables if debug mode is enabled within the task sequence
   Try
@@ -262,32 +253,41 @@
 #Log any useful information
   $LogMessage = "IsWindowsPE = $($IsWindowsPE.ToString())"
   Write-Verbose -Message "$($LogMessage)" -Verbose
-
+  
+  $LogMessage = "Capability Expression (Original) = $($CapabilitiesToAdd.ToString())"
+  Write-Verbose -Message "$($LogMessage)" -Verbose
+  
+  $LogMessage = "Capability Expression (Escaped) = $([Regex]::Escape($CapabilitiesToAdd.ToString()))"
+  Write-Verbose -Message "$($LogMessage)" -Verbose
+  
   $LogMessage = "Script Path = $($ScriptPath.FullName)"
   Write-Verbose -Message "$($LogMessage)" -Verbose
 
-  $DirectoryVariables = Get-Variable | Where-Object {($_.Value -ine $Null) -and ($_.Value -is [System.IO.DirectoryInfo])}
+  $DirectoryVariables = Get-Variable | Where-Object {($_.Value -ine $Null) -and (($_.Value -is [System.IO.DirectoryInfo]) -or ($_.Value -is [System.IO.DirectoryInfo[]]))}
   
   ForEach ($DirectoryVariable In $DirectoryVariables)
     {
-        $LogMessage = "$($DirectoryVariable.Name) = $($DirectoryVariable.Value.FullName)"
+        $LogMessage = "$($DirectoryVariable.Name) = $($DirectoryVariable.Value.FullName -Join ', ')"
         Write-Verbose -Message "$($LogMessage)" -Verbose
     }
 
 #region Import Dependency Modules
-$Modules = Get-Module -Name "$($ModulesDirectory.FullName)\*" -ListAvailable -ErrorAction Stop 
-
-$ModuleGroups = $Modules | Group-Object -Property @('Name')
-
-ForEach ($ModuleGroup In $ModuleGroups)
+If (($ModulesDirectory.Exists -eq $True) -and ($ModulesDirectory.GetDirectories().Count -gt 0))
   {
-      $LatestModuleVersion = $ModuleGroup.Group | Sort-Object -Property @('Version') -Descending | Select-Object -First 1
-      
-      If ($LatestModuleVersion -ine $Null)
+      $Modules = Get-Module -Name "$($ModulesDirectory.FullName)\*" -ListAvailable -ErrorAction Stop 
+
+      $ModuleGroups = $Modules | Group-Object -Property @('Name')
+
+      ForEach ($ModuleGroup In $ModuleGroups)
         {
-            $LogMessage = "Attempting to import dependency powershell module `"$($LatestModuleVersion.Name) [Version: $($LatestModuleVersion.Version.ToString())]`". Please Wait..."
-            Write-Verbose -Message "$($LogMessage)" -Verbose
-            Import-Module -Name "$($LatestModuleVersion.Path)" -Global -DisableNameChecking -Force -ErrorAction Stop
+            $LatestModuleVersion = $ModuleGroup.Group | Sort-Object -Property @('Version') -Descending | Select-Object -First 1
+      
+            If ($LatestModuleVersion -ine $Null)
+              {
+                  $LogMessage = "Attempting to import dependency powershell module `"$($LatestModuleVersion.Name) [Version: $($LatestModuleVersion.Version.ToString())]`". Please Wait..."
+                  Write-Verbose -Message "$($LogMessage)" -Verbose
+                  Import-Module -Name "$($LatestModuleVersion.Path)" -Global -DisableNameChecking -Force -ErrorAction Stop
+              }
         }
   }
 #endregion
@@ -355,8 +355,18 @@ ForEach ($ModuleGroup In $ModuleGroups)
           If (($IsRunningTaskSequence -eq $True))
             {
                 If (($PSBoundParameters.ContainsKey('ImagePath') -eq $False) -and ($ImagePath -eq $Null))
-                  {
-                      [System.IO.DirectoryInfo]$ImagePath = "$($TSEnvironment.Value('OSDisk'))\"
+                  {                      
+                      Switch ('OSDTargetSystemDrive', 'OSDisk')
+                        {
+                            {[String]::IsNullOrEmpty($TSEnvironment.Value($_)) -eq $False}
+                              {
+                                  $LogMessage = "Checking to see the task sequence variable `"`$($_)`" has a value. Please Wait..."
+                                  Write-Verbose -Message "$($LogMessage)" -Verbose
+                          
+                                  [System.IO.DirectoryInfo]$ImagePath = "$($TSEnvironment.Value($_))\"
+                                  Break
+                              }
+                        }
                   }
             }
     
@@ -406,7 +416,7 @@ ForEach ($ModuleGroup In $ModuleGroups)
                                         {$_ -imatch 'RegQword'} {$VariableValue = [System.Convert]::ToInt64(($RegistryValue.ValueData), 16)}     
                                     }
 
-                                  $CreateVariableFromRegistryValue = New-Variable -Name "$($VariableName)" -Value ($VariableValue) -Description "$($VariableDescription)" -Force -Verbose
+                                  $CreateVariableFromRegistryValue = Set-Variable -Name "$($VariableName)" -Value ($VariableValue) -Description "$($VariableDescription)" -Force -Verbose
                               }
                         }
                       Catch
@@ -487,7 +497,7 @@ ForEach ($ModuleGroup In $ModuleGroups)
                       
           $WindowsCapabilities = Get-WindowsCapability @GetWindowsCapabilityParameters | Select-Object -Property @('*') | Sort-Object -Property @('Name')
                     
-          $WindowsCapabilitiesToAdd = $WindowsCapabilities | Where-Object {($_.Name -imatch $CapabilitiesToAdd.ToString())}
+          $WindowsCapabilitiesToAdd = $WindowsCapabilities | Where-Object {($_.Name -imatch [Regex]::Escape($CapabilitiesToAdd.ToString()))}
                     
           $WindowsCapabilitiesToAddCount = $WindowsCapabilitiesToAdd | Measure-Object | Select-Object -ExpandProperty Count
     

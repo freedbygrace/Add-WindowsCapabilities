@@ -1,0 +1,37 @@
+PS C:\Users\QTQZC0\OneDrive - USPS> dism.exe /Image:"D:\ISOs\SW_DVD9_Win_Pro_10_1909.3_64BIT_English_Pro_Ent_EDU_N_MLF_X22-27457_Mount" /Export-Source /?
+
+Deployment Image Servicing and Management tool
+Version: 10.0.17763.771
+
+Image Version: 10.0.18363.720
+
+
+/Export-Source {/CapabilityName:<name_in_image> | /Recipe:<path_to_recipe_file>}
+  /Source:<source> /Target:<target> [/IncludeImageCapabilities]
+
+  Export a set of capabilities into a new repository.
+
+  Use the /CapabilityName to specify the capability you would like to
+  export. Multiple /CapabilityName arguments can be used. You can use /Recipe
+  instead of /CapabilityName to specify multiple capabilities at a time.
+  Use the /Source argument to specify the location of the source repository.
+  Use the /Target to specify the location of the new repository.
+  Use the /IncludeImageCapabilities to export image capabilities into the
+  new repository.
+
+    Examples:
+      Dism /Image:C:\test\offline /Export-Source /Source:C:\test\source
+        /Target:C:\test\target /CapabilityName:Language.Basic~~~en-US~0.0.1.0
+
+      Dism /Image:C:\test\offline /Export-Source /Source:C:\test\source
+        /Target:C:\test\target /Recipe:C:\test\recipe\recipe.xml
+
+Use commands below and adjust for needs
+
+dism.exe /Image:"D:\ISOs\SW_DVD9_Win_Pro_10_1909.3_64BIT_English_Pro_Ent_EDU_N_MLF_X22-27457_Mount" /Export-Source /Source:"D:\ISOs\SW_DVD9_NTRL_Win_10_1903_64Bit_MultiLang_FOD_1_X22-01658" /Target:"C:\Users\QTQZC0\OneDrive - USPS\Powershell\Scripts\Add-WindowsCapabilities\WindowsCapabilities\1909\X64\Exported" /CapabilityName:"Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0" /CapabilityName:"NetFX3~~~~" /CapabilityName:"WMI-SNMP-Provider.Client~~~~0.0.1.0" /CapabilityName:"SNMP.Client~~~~0.0.1.0"
+
+Without AD Tools
+dism.exe /Image:"C:\ImageServicing\Mount\os2005081002" /Export-Source /Source:"D:\FeaturesOnDemand\SW_DVD9_NTRL_Win_10_1809_64Bit_MultiLang_FOD_1_X21-91307" /Target:"C:\Users\QTQZC0\OneDrive - USPS\Powershell\Scripts\Add-WindowsCapabilities\WindowsCapabilities\1809\X64" /CapabilityName:"NetFX3~~~~" /CapabilityName:"WMI-SNMP-Provider.Client~~~~0.0.1.0" /CapabilityName:"SNMP.Client~~~~0.0.1.0"
+
+With AD Tools
+dism.exe /Image:"C:\ImageServicing\Mount\os2005081002" /Export-Source /Source:"D:\FeaturesOnDemand\SW_DVD9_NTRL_Win_10_1809_64Bit_MultiLang_FOD_1_X21-91307" /Target:"C:\Users\QTQZC0\OneDrive - USPS\Powershell\Scripts\Add-WindowsCapabilities\WindowsCapabilities\1809\X64" /CapabilityName:"Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0" /CapabilityName:"NetFX3~~~~" /CapabilityName:"WMI-SNMP-Provider.Client~~~~0.0.1.0" /CapabilityName:"SNMP.Client~~~~0.0.1.0"

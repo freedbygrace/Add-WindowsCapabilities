@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ActionList xmlns="urn:schemas-microsoft-com:os-update-actionlist" SessionId="2020-04-11T14:59:53" Revision="1" SessionData="ExportRepository" BuildInfo="19h1_release.18362.1.190318-1202" CorrelationVector="9w8nxLnptEiu/VE2.1" Operation="ExportRepository">
+    <Downloads>
+        <Package Id="amd64_FoDMetadata_Client" Reason="OnDemand" PayloadType="Canonical" FeatureId="FoDMetadata_Client">
+            <Payload Hash="aocvJCLRs43mW0bz9hg/TLnTUCrsqzsApJ2uJdQy37g=" DownloadSize="346753" SourceName="FoDMetadata_Client.cab" SourcePath="UUP\DESKTOP\FoDMetadata"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ar-sa~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="i3+cwco9Ec+9Mei3dXoRafr5SyOkbWk1/7Tp/42I/tc=" DownloadSize="776633" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ar-sa~.cab" SourcePath="FeaturesOnDemand\ar-sa\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~bg-bg~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="pUn8v1CobSEwO29hrqQeFPBUAGqxtcBO0lKj572fFr0=" DownloadSize="778203" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~bg-bg~.cab" SourcePath="FeaturesOnDemand\bg-bg\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~cs-cz~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="NEriEZtKxqC8diRW8SvoVkTMYtXYyRjsz0izLOtws7c=" DownloadSize="795553" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~cs-cz~.cab" SourcePath="FeaturesOnDemand\cs-cz\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~da-dk~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="Ea75V+NbVz4FUxQEkYoGRjYbb3ltWzJoWA1ZQMaujZY=" DownloadSize="784161" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~da-dk~.cab" SourcePath="FeaturesOnDemand\da-dk\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~de-de~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="cInKaQTMJKp9/2AUv4/8NXP3Mf+THLRVL19yCnq4SiM=" DownloadSize="811345" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~de-de~.cab" SourcePath="FeaturesOnDemand\de-de\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~el-gr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="2UfUbp7Xfsb0Be9zUm0tTk0eUtMjXImaUqjSR8cpCRg=" DownloadSize="791005" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~el-gr~.cab" SourcePath="FeaturesOnDemand\el-gr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~en-gb~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="FTRFh1Qr8whNfy4aWxqW2G1hJIWkU4ZOcUn79K+McSM=" DownloadSize="774271" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~en-gb~.cab" SourcePath="FeaturesOnDemand\en-gb\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="f7HLbpXbnTORZd08ckuSnpjfGyQqEYq6Oo8r9UXFv9M=" DownloadSize="773433" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~es-es~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="jedKAhhuITsZuv/HQZfP6vI96AFQFDO7b5uxusBjBnk=" DownloadSize="795487" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~es-es~.cab" SourcePath="FeaturesOnDemand\es-es\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~es-mx~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="C4CNZQqGt6AoNB3co9Vre992UN4veNpYiwM2TkTbLa4=" DownloadSize="795083" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~es-mx~.cab" SourcePath="FeaturesOnDemand\es-mx\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~et-ee~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="hq/+RIzlcAmRGkiK6F3FCnzVP+sVRlQjgJBHS8ASh7o=" DownloadSize="775479" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~et-ee~.cab" SourcePath="FeaturesOnDemand\et-ee\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~fi-fi~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="MP2DiDCDOqA+C4Ru2lNGHNLdeFTN4CtiFl5RHauTY1k=" DownloadSize="780785" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~fi-fi~.cab" SourcePath="FeaturesOnDemand\fi-fi\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~fr-ca~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="XDPwMcV6zStQZ6ikQFbJP6Kc4fvhsfW8e4R78bWEM0E=" DownloadSize="808267" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~fr-ca~.cab" SourcePath="FeaturesOnDemand\fr-ca\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~fr-fr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="EK3yRUfgaW7s92ihMwRo97qNUhgX368E6sB+bRNhsGw=" DownloadSize="809163" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~fr-fr~.cab" SourcePath="FeaturesOnDemand\fr-fr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~he-il~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="DKkZprU+8cTPnfWSoTYbSFqfR4rsDw3OA64v7a+MSn4=" DownloadSize="775677" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~he-il~.cab" SourcePath="FeaturesOnDemand\he-il\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~hr-hr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="Q9r9q9dxaylD0KdZfxfO7SsmKHi853yjINALgvUn3II=" DownloadSize="772907" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~hr-hr~.cab" SourcePath="FeaturesOnDemand\hr-hr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~hu-hu~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="PUB3R4H//x9p2VRDYmTujygqAWlNppavCYh/8SWysgE=" DownloadSize="799159" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~hu-hu~.cab" SourcePath="FeaturesOnDemand\hu-hu\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~it-it~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="OOSF6ZjfmVbh2cxI/g50mYADa54DVUSEVSlR9xjrQcs=" DownloadSize="791385" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~it-it~.cab" SourcePath="FeaturesOnDemand\it-it\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ja-jp~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="5AIKFnf1NVKFLAnhmvVn7isEuC+Sp0hBcUGVNrkq6Fw=" DownloadSize="929732" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ja-jp~.cab" SourcePath="FeaturesOnDemand\ja-jp\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ko-kr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="RSbu0iuoXQCo2lujhFvr3gwVxNGVR16e8CKAE/DHht4=" DownloadSize="917784" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ko-kr~.cab" SourcePath="FeaturesOnDemand\ko-kr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~lt-lt~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="I6bx6dzsKj6iivk8KB1ejaIVXQby6WqG8ePPAek0d1w=" DownloadSize="774451" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~lt-lt~.cab" SourcePath="FeaturesOnDemand\lt-lt\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~lv-lv~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="VXJC+qdt753W2Y9XVotNSXC4XkCEdFd8bCCVow/kHiw=" DownloadSize="774673" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~lv-lv~.cab" SourcePath="FeaturesOnDemand\lv-lv\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~nb-no~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="FJrhooYnhZU+yQQqzH5FeH1PFxNkpeVWw0vdTvomzBk=" DownloadSize="778817" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~nb-no~.cab" SourcePath="FeaturesOnDemand\nb-no\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~nl-nl~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="CIVS63fBNKYo31wXFCnLuzFM/n+AfHKT1e6tU3QphZs=" DownloadSize="793799" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~nl-nl~.cab" SourcePath="FeaturesOnDemand\nl-nl\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~pl-pl~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="L2uMBwfpaNDlvo4LspAFrl5zl96Lj6Al2Xrwio+RYx4=" DownloadSize="795875" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~pl-pl~.cab" SourcePath="FeaturesOnDemand\pl-pl\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~pt-br~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="RoJ5bFOCi2rsah6cug31MRmMpWsKJnviI1naNzzQgXE=" DownloadSize="798135" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~pt-br~.cab" SourcePath="FeaturesOnDemand\pt-br\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~pt-pt~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="ejvfVkCUOLVFDAKTMpvSqMFrQvcTuog3D4Xw8XclX2U=" DownloadSize="793045" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~pt-pt~.cab" SourcePath="FeaturesOnDemand\pt-pt\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ro-ro~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="fBAsRiqSfwYz1TOoL6AbB4K6y2FqZlFsPI577qXkDo0=" DownloadSize="774885" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ro-ro~.cab" SourcePath="FeaturesOnDemand\ro-ro\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ru-ru~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="wh5O9RjtZWBcEtSyLyP8GESPWklkDsd2FIFMR8rDPvk=" DownloadSize="976890" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~ru-ru~.cab" SourcePath="FeaturesOnDemand\ru-ru\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~sk-sk~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="1VwjPaaL42JBRTKsuivUdEq1z8fJ05gvs64cx7ssryU=" DownloadSize="775251" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~sk-sk~.cab" SourcePath="FeaturesOnDemand\sk-sk\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~sl-si~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="h4zE7ksmuy/9W/kUmRgOVwLzSTYlqF9XZGgahhzDD0A=" DownloadSize="774575" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~sl-si~.cab" SourcePath="FeaturesOnDemand\sl-si\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="kaz1myvGGBZOwVNLX/SVNAdqJoaLcqvcBlGhUDu1DhQ=" DownloadSize="774171" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~.cab" SourcePath="FeaturesOnDemand\sr-latn-rs\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~sv-se~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="9+Sx9ZcciZB6nloFa36QMHQQ+j+to9Ofoy/o6gxGiPc=" DownloadSize="787001" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~sv-se~.cab" SourcePath="FeaturesOnDemand\sv-se\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~th-th~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="g5CbBi/VOFVBsWtwef/N1644J17/ZZ8vIBkRwq6hpvA=" DownloadSize="777613" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~th-th~.cab" SourcePath="FeaturesOnDemand\th-th\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~tr-tr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="KSsRVK3kJGJoCPQYd7XnOmEZ3H9yhzMiuISf97H3Aw8=" DownloadSize="789197" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~tr-tr~.cab" SourcePath="FeaturesOnDemand\tr-tr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="1h07bq0152itzWbXqGI2dRuSh7l6kmOogfkAwZrVHyQ=" DownloadSize="779815" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~.cab" SourcePath="FeaturesOnDemand\uk-ua\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~zh-cn~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="po0SX3GtuFD5Hhsx5xDQpu0FlsvcYHHUYe2xEM8Ej+o=" DownloadSize="916102" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~zh-cn~.cab" SourcePath="FeaturesOnDemand\zh-cn\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~zh-tw~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="53617dDWOHuq5iatry/OSmY+KvjMwIN1QKsiYrB48V4=" DownloadSize="914038" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~zh-tw~.cab" SourcePath="FeaturesOnDemand\zh-tw\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~~" Reason="OnDemand" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="AsOHi9rVzrce33OKU+vYeUHTH2TZKlluDkCn97SxomY=" DownloadSize="4640004" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ar-sa~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="oQnJThokvH3tkYm+Q+iNpwOBgFA6gnKCjNqNY33yKvM=" DownloadSize="99737" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ar-sa~.cab" SourcePath="FeaturesOnDemand\ar-sa\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~bg-bg~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="KuVLTjw6T8tVjC5FkOLRqfyrJcciCB3AIXMTZn4twHE=" DownloadSize="99139" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~bg-bg~.cab" SourcePath="FeaturesOnDemand\bg-bg\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~cs-cz~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="H3VjoaHSYCV1db8CG/HEFSnvrq4eOydfLmbMorScG1U=" DownloadSize="101093" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~cs-cz~.cab" SourcePath="FeaturesOnDemand\cs-cz\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~da-dk~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="CiLdZorfqvgOFBJ3oLEn6OA9iSYhQLV9gaTaT/5sjFU=" DownloadSize="99587" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~da-dk~.cab" SourcePath="FeaturesOnDemand\da-dk\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~de-de~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="tqYH2n5DKn7CC2fKEi5MunUWl9iTtlViVAFtjIrg5DM=" DownloadSize="102373" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~de-de~.cab" SourcePath="FeaturesOnDemand\de-de\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~el-gr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="pUBvVjSlCVGqdtiVE/znJ/2xF95fJT+oY+AgeTWP5+8=" DownloadSize="103083" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~el-gr~.cab" SourcePath="FeaturesOnDemand\el-gr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~en-gb~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="rPDjg1ipjKJeNwPa1zSJO+6uSFn+lDJxpG8AWHJlCdk=" DownloadSize="99835" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~en-gb~.cab" SourcePath="FeaturesOnDemand\en-gb\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="DX0xammRnPgOLEdwXwx82sVU3ljzEF4Evh4oOPdeSCg=" DownloadSize="99001" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~es-es~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="M5TzcoqbBdAlYe2O34vYTMXrd1AffBrEbcFI+OWKC48=" DownloadSize="100147" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~es-es~.cab" SourcePath="FeaturesOnDemand\es-es\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~es-mx~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="B4NB+54lzVTTDvZ7EvKCp165x9bQAY6g3NhnrLESPDg=" DownloadSize="100837" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~es-mx~.cab" SourcePath="FeaturesOnDemand\es-mx\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~et-ee~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="Z+4tDfN+u8MYPKJ3XdkyCqp4jiZehMOgyskq64i7AEg=" DownloadSize="98881" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~et-ee~.cab" SourcePath="FeaturesOnDemand\et-ee\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~fi-fi~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="3rSsUQ5ngAJkySNgJtyZWI68/Jo9O2bOLqPuW+ZDn0Q=" DownloadSize="99809" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~fi-fi~.cab" SourcePath="FeaturesOnDemand\fi-fi\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~fr-ca~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="zC585Cba4QE3Sj8rmkJkOY0UJ7isS42Er8jwYyytd3A=" DownloadSize="100881" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~fr-ca~.cab" SourcePath="FeaturesOnDemand\fr-ca\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~fr-fr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="uszkRH4Oy6sbzbqR6JBsWFsGdWAUxLNYUMfWowPgkWg=" DownloadSize="102439" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~fr-fr~.cab" SourcePath="FeaturesOnDemand\fr-fr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~he-il~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="3aD6qVScAozR9hZ3ksQl6VmqnSdFDIptRFdriOQCG5g=" DownloadSize="97389" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~he-il~.cab" SourcePath="FeaturesOnDemand\he-il\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~hr-hr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="akBhsQUKnk4RyH2dXmTPPwyAoLM0xQNz7y/nK+0/M5c=" DownloadSize="99609" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~hr-hr~.cab" SourcePath="FeaturesOnDemand\hr-hr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~hu-hu~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="YFNJK3hKd+9LophsB4WYagqt5is75twwWc4GEWKzlgE=" DownloadSize="102649" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~hu-hu~.cab" SourcePath="FeaturesOnDemand\hu-hu\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~it-it~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="PxDZqwsAzAAqiDcTZlstYGSgHxRcpdoM8Btp5xL2mdU=" DownloadSize="99427" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~it-it~.cab" SourcePath="FeaturesOnDemand\it-it\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ja-jp~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="rkxERww+tfPY95py/rdpOfJO3K/ThFn0MAj4KaugO7A=" DownloadSize="97507" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ja-jp~.cab" SourcePath="FeaturesOnDemand\ja-jp\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ko-kr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="X7rEQxwINJUQhSm3jC9FUw7jpMxKmWRmEoZJR7udT9Q=" DownloadSize="96511" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ko-kr~.cab" SourcePath="FeaturesOnDemand\ko-kr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~lt-lt~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="vapCgGu1qB9LHWld7vgyc/gm7K+55NhFomf/iGnUuoQ=" DownloadSize="99267" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~lt-lt~.cab" SourcePath="FeaturesOnDemand\lt-lt\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~lv-lv~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="VN7J3DdKID2dlz0230hT6Hrcf3iE3CQSCf4/El69+i0=" DownloadSize="99255" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~lv-lv~.cab" SourcePath="FeaturesOnDemand\lv-lv\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~nb-no~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="/qLOzDdRcAGI1drBO8JWwvWtwrvDYXDSf+37UkovoiQ=" DownloadSize="99417" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~nb-no~.cab" SourcePath="FeaturesOnDemand\nb-no\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~nl-nl~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="1fshWfBskzTggM9tRrEQ1VaAssPGy6CO4GLCxKJECdI=" DownloadSize="100565" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~nl-nl~.cab" SourcePath="FeaturesOnDemand\nl-nl\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~pl-pl~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="rgsZoorkk8NakpdPvW6RSlRFwZd8lD3GBiL4U0/Swf8=" DownloadSize="100967" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~pl-pl~.cab" SourcePath="FeaturesOnDemand\pl-pl\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~pt-br~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="MoF9SKmFkNxF1qpFvG20YFStICESOzHd8x096sphIFQ=" DownloadSize="100053" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~pt-br~.cab" SourcePath="FeaturesOnDemand\pt-br\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~pt-pt~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="/Q2aqUJrPh8VOxLSirg0Qu1KBJV7XlgGvjhIdasSJ6I=" DownloadSize="100557" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~pt-pt~.cab" SourcePath="FeaturesOnDemand\pt-pt\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ro-ro~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="keqQTgDJYA14Bb6AIt6Segl2DWa2J0QAT0A+Y7+pYIM=" DownloadSize="98827" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ro-ro~.cab" SourcePath="FeaturesOnDemand\ro-ro\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ru-ru~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="SrLofrg05tyvbwsUkk+itlrQR0CC2W8r6CvlhDnmeKw=" DownloadSize="101411" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~ru-ru~.cab" SourcePath="FeaturesOnDemand\ru-ru\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~sk-sk~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="ThSy6e1NryZ0BELyADPV29vLueh/iRsqZxmvbVqjNlA=" DownloadSize="98593" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~sk-sk~.cab" SourcePath="FeaturesOnDemand\sk-sk\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~sl-si~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="3jxhk+kLAr5iLH1GbGiu1rZ/WwN/pEvamcWHya7e1nc=" DownloadSize="99435" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~sl-si~.cab" SourcePath="FeaturesOnDemand\sl-si\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~sr-latn-rs~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="iacr+CzNclemtfvzSyd0gNYTU/revD8s194QgGbTfDY=" DownloadSize="99248" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~sr-latn-rs~.cab" SourcePath="FeaturesOnDemand\sr-latn-rs\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~sv-se~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="/ejRRzFHiCt7hsCNCL4jv5M/XM0rh+CF4ngLh1lZ+JE=" DownloadSize="98985" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~sv-se~.cab" SourcePath="FeaturesOnDemand\sv-se\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~th-th~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="KeAQpyXg2+vJeABWgm5xgnlNtIDsb/GwxzzbAnGBRZU=" DownloadSize="98953" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~th-th~.cab" SourcePath="FeaturesOnDemand\th-th\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~tr-tr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="75DktnlkTj3w4xH3qnxnNXGJChZGqc+YwG2iIdqBljE=" DownloadSize="99535" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~tr-tr~.cab" SourcePath="FeaturesOnDemand\tr-tr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="e9ctBH9e1wkU3t/vw9TPSZSIyMzqTIpWbVBjOnFlrPU=" DownloadSize="99553" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~.cab" SourcePath="FeaturesOnDemand\uk-ua\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~zh-cn~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="+Woo9sgLt9eW5Lcmg+W7COqsWCcUI/dSuKMIg9JB19s=" DownloadSize="95809" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~zh-cn~.cab" SourcePath="FeaturesOnDemand\zh-cn\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~zh-tw~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="6CmIcNjJUs3Kg0yDWXWLHaZSnFvMtOZpuVl4bVteBgY=" DownloadSize="95899" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~zh-tw~.cab" SourcePath="FeaturesOnDemand\zh-tw\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ActiveDirectory.DS-LDS.Tools~~1.0">
+            <Payload Hash="3k+Un7AbSNYA1/y/WcttHR1K8Z0LDJ6lcFtrEykxge4=" DownloadSize="590235" SourceName="Microsoft-Windows-ActiveDirectory-DS-LDS-Tools-FoD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ar-sa~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="e1iHQrRGN0jTCVP0rht5Q4TSjEHM80ShYo0Saeym4lU=" DownloadSize="1877111" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ar-sa~.cab" SourcePath="FeaturesOnDemand\ar-sa\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~bg-bg~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="7D4Y9g7GjsB1k45CDrrN3+HIWo8jtV78dXyQUhW0sbY=" DownloadSize="1882643" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~bg-bg~.cab" SourcePath="FeaturesOnDemand\bg-bg\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~cs-cz~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="TqDSgGMyRYIXbTracWURiI8jd2LuR8s+xUtiIhDYo34=" DownloadSize="1917855" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~cs-cz~.cab" SourcePath="FeaturesOnDemand\cs-cz\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~da-dk~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="S/eqUkdX67be8Y/3tnF1vOjf2Abrpb/VzATPB6GI2kI=" DownloadSize="1881311" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~da-dk~.cab" SourcePath="FeaturesOnDemand\da-dk\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~de-de~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="lf+T0CGAyKXolY+9IlVZhGCNzki8JLGKTEaVl5fsvl4=" DownloadSize="1913799" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~de-de~.cab" SourcePath="FeaturesOnDemand\de-de\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~el-gr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="TIocg4UnEzR3ol/EUeGqGWSOhaAkv/LgHZkBcNiPalA=" DownloadSize="1873287" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~el-gr~.cab" SourcePath="FeaturesOnDemand\el-gr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~en-gb~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="4fVYdj8T7DGFKKf96fFYeVyzMGrUgemhuHhsT0AlCYc=" DownloadSize="1880809" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~en-gb~.cab" SourcePath="FeaturesOnDemand\en-gb\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="x4UsCJyY2X1/5pn4G0BU1fjr27IDGIs82Fh+oDiGNU8=" DownloadSize="1879523" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~es-es~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="OSxNFOt1qGugAz+VluKkvPWEXa26bLALdLuPU3h0V3U=" DownloadSize="1897717" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~es-es~.cab" SourcePath="FeaturesOnDemand\es-es\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~es-mx~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="PP7MOVSexxy0GGeWv6H8Qgqqf1z7AG0djGFxvAa0rLs=" DownloadSize="1898117" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~es-mx~.cab" SourcePath="FeaturesOnDemand\es-mx\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~et-ee~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="TakMYF/2If2P6qqOSF3gHwc8JMLr3iEdxMNk8Zb6zH4=" DownloadSize="1873033" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~et-ee~.cab" SourcePath="FeaturesOnDemand\et-ee\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~fi-fi~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="nxineE4vX3jx9+bDsY+W8u7OooqXbrrZOHV4CbLyEHc=" DownloadSize="1878139" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~fi-fi~.cab" SourcePath="FeaturesOnDemand\fi-fi\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~fr-ca~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="PNWLyIS46MxNWPTfd2U1JyF9z2Fjv7HGbvjty3dXGGQ=" DownloadSize="1913823" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~fr-ca~.cab" SourcePath="FeaturesOnDemand\fr-ca\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~fr-fr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="tIuBJPOMZFR0b1KAg5enmU2lf38N94W/gNE5UP1BQ9E=" DownloadSize="1906385" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~fr-fr~.cab" SourcePath="FeaturesOnDemand\fr-fr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~he-il~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="Re1B0ZdAEYuavO2G55D+Ydg4oqNjamdD4f4oKNBzg6s=" DownloadSize="1876333" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~he-il~.cab" SourcePath="FeaturesOnDemand\he-il\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~hr-hr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="IS7eopCqUC+hfl1INgG/v4GIY5H9wbLXT2FU3fCs/3c=" DownloadSize="1876083" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~hr-hr~.cab" SourcePath="FeaturesOnDemand\hr-hr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~hu-hu~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="KFG9giMNHzRpw/U/V/iphM5G9gThPZLl+WxuNDwrQTA=" DownloadSize="1913389" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~hu-hu~.cab" SourcePath="FeaturesOnDemand\hu-hu\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~it-it~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="1hqwxivci6qXAaTqaYn6Q3n3id8+pkXPM0sWk5JJhdQ=" DownloadSize="1892113" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~it-it~.cab" SourcePath="FeaturesOnDemand\it-it\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ja-jp~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="WiydHZ6R40EjNaj+wlirH82IEx6ZbrwLVdnjcv/tCMI=" DownloadSize="1892741" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ja-jp~.cab" SourcePath="FeaturesOnDemand\ja-jp\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ko-kr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="IFDGGa93Ay0PWZovQQQ4euEkEsEbfIvKTZkDla7JNLU=" DownloadSize="1874509" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ko-kr~.cab" SourcePath="FeaturesOnDemand\ko-kr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~lt-lt~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="tfq2fHA+5qGAdIVBYDw1NyvV1qIXgdiu3W060Syi6yw=" DownloadSize="1876599" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~lt-lt~.cab" SourcePath="FeaturesOnDemand\lt-lt\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~lv-lv~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="V54Ve2yqHqeO7MGS7hdOE1i7Zi+m0exutTa8N0mPzIA=" DownloadSize="1880973" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~lv-lv~.cab" SourcePath="FeaturesOnDemand\lv-lv\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~nb-no~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="v0Dkp9LtEl0VcC5XbREh7NB+rAQkXDym8QwQw9pXc3w=" DownloadSize="1874071" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~nb-no~.cab" SourcePath="FeaturesOnDemand\nb-no\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~nl-nl~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="M1snuY3sfqB5tUI4vXwif0Tly5FbTBGA6tQeWWrZ80Q=" DownloadSize="1900589" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~nl-nl~.cab" SourcePath="FeaturesOnDemand\nl-nl\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~pl-pl~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="ImEQHxbXFBU1p1voR4/ESb6TAgliiVDt+3xwM39bZ5Y=" DownloadSize="1908731" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~pl-pl~.cab" SourcePath="FeaturesOnDemand\pl-pl\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~pt-br~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="GFgtnjL1EdIFiof+mK3UENxCBcjeFrw96cBYTf9oa0M=" DownloadSize="1908559" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~pt-br~.cab" SourcePath="FeaturesOnDemand\pt-br\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~pt-pt~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="6lwsQtbML8nv9D5XgUoT6/OwK4VBzPmPWJvXmqf7UXk=" DownloadSize="1902125" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~pt-pt~.cab" SourcePath="FeaturesOnDemand\pt-pt\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ro-ro~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="/+2I+49EqTQ4GugypvDtAF1pafzEYc+TqSSZ+EGnCFQ=" DownloadSize="1875015" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ro-ro~.cab" SourcePath="FeaturesOnDemand\ro-ro\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ru-ru~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="3ntkgUVaipe5LTnTzTvdKM5xvlys1zr69yr/m6z7lCI=" DownloadSize="1951907" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~ru-ru~.cab" SourcePath="FeaturesOnDemand\ru-ru\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sk-sk~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="ClUocuIj6uM7UVnWe0mIyxdcml7XBJzQ3bLnKkrWVEA=" DownloadSize="1879095" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sk-sk~.cab" SourcePath="FeaturesOnDemand\sk-sk\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sl-si~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="d5W14cD7QeXItBk0WpTGLmJdO9uhr/E3l1VLWDihnQg=" DownloadSize="1879325" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sl-si~.cab" SourcePath="FeaturesOnDemand\sl-si\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="YIA2s+C58d61vTwkoCIw5XIBlf3K/8y+5E0gimG6VPc=" DownloadSize="1877873" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sr-latn-rs~.cab" SourcePath="FeaturesOnDemand\sr-latn-rs\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sv-se~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="agH89Jdlp0kxncvICJ1SW0wTpgIhWef37I2RNrYL5rU=" DownloadSize="1898015" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~sv-se~.cab" SourcePath="FeaturesOnDemand\sv-se\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~th-th~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="stiFsPtR5EC/AZdru1YbhEQ6EnOFiu2f2qYeX2kbTdg=" DownloadSize="1874443" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~th-th~.cab" SourcePath="FeaturesOnDemand\th-th\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~tr-tr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="OgBS0iBAumvRBPYaZTxQAwiSqkcdRzwAHhiPJ8vD6nE=" DownloadSize="1904455" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~tr-tr~.cab" SourcePath="FeaturesOnDemand\tr-tr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="RYf23+LKpRO6ffPvHwuRxAEh7k7OqpzZL/Oqg8N0f2w=" DownloadSize="1878705" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~uk-ua~.cab" SourcePath="FeaturesOnDemand\uk-ua\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~zh-cn~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="BueQ4nBFgnr2AoaDBfpgbd3inozyy+fZoya7vpi0yEc=" DownloadSize="1875377" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~zh-cn~.cab" SourcePath="FeaturesOnDemand\zh-cn\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~zh-tw~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="p0sXWk/tdLAWlk6elJQGMuLK3X/NfYpokjfVj/7ExPU=" DownloadSize="1879465" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~zh-tw~.cab" SourcePath="FeaturesOnDemand\zh-tw\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~~" Reason="OnDemand" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="e4GUmrSta5jrl0m35rr3m47eseuOKzF7U43zf+rA0xA=" DownloadSize="6577099" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ar-sa~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="IscmjZ9bc+T1qwExXyDkOU35d1asfiMEw8Ks4eZr2NI=" DownloadSize="310820" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ar-sa~.cab" SourcePath="FeaturesOnDemand\ar-sa\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~bg-bg~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="OfyWCR/DfypRhxG3w9LXtee83W9nsoDs6j2ZOtrxdNU=" DownloadSize="311066" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~bg-bg~.cab" SourcePath="FeaturesOnDemand\bg-bg\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~cs-cz~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="EvuStlpSdOSvqwV4iLgCz74MdM49cnVlQfPymuSjMKc=" DownloadSize="317044" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~cs-cz~.cab" SourcePath="FeaturesOnDemand\cs-cz\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~da-dk~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="Lqh9iioDCrLy8TSEOzO4riC/887tAecAl1VTF0sus+Q=" DownloadSize="311162" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~da-dk~.cab" SourcePath="FeaturesOnDemand\da-dk\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~de-de~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="LiZN8piUP95oV3esS7FiACJrz7TVeg2yi/LQZM6Gxnc=" DownloadSize="314324" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~de-de~.cab" SourcePath="FeaturesOnDemand\de-de\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~el-gr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="Kb/dXQRcqVqZi2TmrXxyDS8O7smefHuAPbIElEsS4hs=" DownloadSize="310244" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~el-gr~.cab" SourcePath="FeaturesOnDemand\el-gr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~en-gb~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="0EMoIksSCbnz1KzcX4gmAf6aVc2RauRt/1H7kVeBPQ0=" DownloadSize="310258" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~en-gb~.cab" SourcePath="FeaturesOnDemand\en-gb\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="saPQwv9ffXBN738fV4KBuYfadO0ffkbwbI5L28SxVDY=" DownloadSize="310464" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~es-es~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="T70nUgUWuYcJ3RFk5wGqqDWi7TnboEjuDYBDymNAKSQ=" DownloadSize="314812" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~es-es~.cab" SourcePath="FeaturesOnDemand\es-es\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~es-mx~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="W1nPeCY3tVT8i5QX2tvRpNR5t8WH+tPrCESYgXR6l7U=" DownloadSize="314208" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~es-mx~.cab" SourcePath="FeaturesOnDemand\es-mx\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~et-ee~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="HEURvGlBLSJAfPnBOpvQrhBJ/6CQta+zD+oGM8S3vGE=" DownloadSize="310714" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~et-ee~.cab" SourcePath="FeaturesOnDemand\et-ee\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~fi-fi~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="bOcftXfpcG5kqMFf+4a6pxcAaj1TLeiCLerMOjvE7ug=" DownloadSize="309776" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~fi-fi~.cab" SourcePath="FeaturesOnDemand\fi-fi\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~fr-ca~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="cJK8nIVlmRrdr4xHR4csrriX+uLCbSt4MWoQOJ0pCtY=" DownloadSize="315598" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~fr-ca~.cab" SourcePath="FeaturesOnDemand\fr-ca\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~fr-fr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="2pcd4IiBPVvLWE3z8J+fU3JGG7tdNgM1U+cQgv2WLnQ=" DownloadSize="314190" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~fr-fr~.cab" SourcePath="FeaturesOnDemand\fr-fr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~he-il~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="q97ckhMwJfDT9pCHhQy/EqLMkgV9cJ5s/dtcA+r/LIY=" DownloadSize="309868" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~he-il~.cab" SourcePath="FeaturesOnDemand\he-il\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~hr-hr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="yfbnllErSH64g8DbHw+Cf0XkzojBod/1NE8T9YO3zDE=" DownloadSize="310946" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~hr-hr~.cab" SourcePath="FeaturesOnDemand\hr-hr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~hu-hu~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="6x3O6JNvvXed5RlFoR0dFvtwh6ssGBykjJTmRoXsdcI=" DownloadSize="315228" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~hu-hu~.cab" SourcePath="FeaturesOnDemand\hu-hu\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~it-it~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="wWjvFrqTVOx6oLc2aDTcHtRO3ul+khHk2yFtl1ljCKc=" DownloadSize="313864" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~it-it~.cab" SourcePath="FeaturesOnDemand\it-it\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ja-jp~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="iBh8c0IPa6gLkPH/IVgsdytvBYifbtAG15Itf5YSDss=" DownloadSize="310518" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ja-jp~.cab" SourcePath="FeaturesOnDemand\ja-jp\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ko-kr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="XN3aFUdbHIebxaT4owtTkuAzWxl2wZyK7AYwkrMMDIE=" DownloadSize="310416" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ko-kr~.cab" SourcePath="FeaturesOnDemand\ko-kr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~lt-lt~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="OT6VPRNdllFm6t/akdih8XKoaYisqe3TX2b1tVohanE=" DownloadSize="310210" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~lt-lt~.cab" SourcePath="FeaturesOnDemand\lt-lt\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~lv-lv~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="b6JphX7aiNMX1qdvURKH5CjsfQhnh8EDunlvhMhCLgI=" DownloadSize="311640" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~lv-lv~.cab" SourcePath="FeaturesOnDemand\lv-lv\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~nb-no~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="dxyeAlIszXrDMMnDw13uc6xivmgrnk4wMXeEsCbBiCk=" DownloadSize="308736" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~nb-no~.cab" SourcePath="FeaturesOnDemand\nb-no\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~nl-nl~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="k67KNB8VVIKWE+bRMnfgxxft0q8rtMlz+v9PZi8jZVc=" DownloadSize="314448" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~nl-nl~.cab" SourcePath="FeaturesOnDemand\nl-nl\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~pl-pl~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="ia8MY613wCsfgiMBZV+OTCjJmHYPql5fkTDKtGPKImQ=" DownloadSize="316832" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~pl-pl~.cab" SourcePath="FeaturesOnDemand\pl-pl\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~pt-br~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="XituwvPWsFY/PFeTHcAVjyRM+pWfogZ87BvgZVAme7w=" DownloadSize="315318" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~pt-br~.cab" SourcePath="FeaturesOnDemand\pt-br\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~pt-pt~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="5y+0yuEW3FXAEKmjUM69w8V/aXQCdQ5lxTn6/XPUICw=" DownloadSize="314254" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~pt-pt~.cab" SourcePath="FeaturesOnDemand\pt-pt\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ro-ro~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="//kul0QH9NVOOMoH9qKgUHXXllp+BHpvQF9n5zTio9s=" DownloadSize="310826" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ro-ro~.cab" SourcePath="FeaturesOnDemand\ro-ro\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ru-ru~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="FIEsYKrBlYhrIDmDYd7xCG7dKBXXY8S2OGtAclQucyQ=" DownloadSize="319770" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~ru-ru~.cab" SourcePath="FeaturesOnDemand\ru-ru\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sk-sk~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="jBLhGK43VG4JOuksODJeCKMhK43UOky0PP/Qk6aoXww=" DownloadSize="310646" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sk-sk~.cab" SourcePath="FeaturesOnDemand\sk-sk\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sl-si~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="viYGCJi3yFb/NJt9DCuTlZDEfQmE112/hOIKvMOKPCI=" DownloadSize="311798" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sl-si~.cab" SourcePath="FeaturesOnDemand\sl-si\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sr-latn-rs~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="9DI4Bx1+f9GtBKhx15Ctbn8pBtRdq4VJnIdXs5c2vRQ=" DownloadSize="311012" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sr-latn-rs~.cab" SourcePath="FeaturesOnDemand\sr-latn-rs\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sv-se~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="XZyaR9kV53S1SPNbGbMrpXpTp3IcOkBBXXB+0shTcdo=" DownloadSize="314464" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~sv-se~.cab" SourcePath="FeaturesOnDemand\sv-se\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~th-th~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="TXqRQmS/R0MHq3vdWnJYW/EKqkfETaZ7OPLI0/28aBA=" DownloadSize="310468" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~th-th~.cab" SourcePath="FeaturesOnDemand\th-th\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~tr-tr~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="4YTAuT6+A7yV1Il3JxWaZNFZvsVEfpxGMACnBctMxYc=" DownloadSize="313772" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~tr-tr~.cab" SourcePath="FeaturesOnDemand\tr-tr\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="oQdAFiw2fDG1ajif3qUlJRHjHlIC5UlExqYZM78a8DY=" DownloadSize="310258" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~uk-ua~.cab" SourcePath="FeaturesOnDemand\uk-ua\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~zh-cn~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="BWkfmhhwK1qaKqmLBJ317uSPUstqYk1YN2S1fH4BHjE=" DownloadSize="310192" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~zh-cn~.cab" SourcePath="FeaturesOnDemand\zh-cn\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~zh-tw~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="nT3DrC1BoiSIq2CTgOC4pBql6CQFYhbq0IaBSTf9LB4=" DownloadSize="310804" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~zh-tw~.cab" SourcePath="FeaturesOnDemand\zh-tw\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~~" Reason="Satellite" PayloadType="Canonical" FeatureId="Rsat.ServerManager.Tools~~1.0">
+            <Payload Hash="OPVR7vIHUjx8p/Zd5yJubyHwEY3N/Tt/ZypH/5mf9IE=" DownloadSize="87124" SourceName="Microsoft-Windows-ServerManager-Tools-FoD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+    </Downloads>
+    <Plan>
+    </Plan>
+    <Actions>
+    </Actions>
+</ActionList>
